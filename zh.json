@@ -1,0 +1,861 @@
+{
+  "header": {
+    "title": "工业人工智能",
+    "subtitle": "人工智能在B2B和B2C中的应用示例",
+    "counter": "来自9个行业的56个案例"
+  },
+  "language_selector": {
+    "title": "语言:",
+    "ru": "Русский",
+    "en": "English",
+    "zh": "中文"
+  },
+  "main_title": "人工智能在B2B和B2C领域的应用示例",
+  "description": "研究人工智能（机器学习、计算机视觉、LLM）在冶金、农业、物流、采矿、医疗保健、纺织、制造和机械行业的实际应用示例。",
+  "filters": {
+    "industry": {
+      "title": "按行业筛选:",
+      "all": "所有行业",
+      "metallurgy": "冶金",
+      "agriculture": "农业",
+      "logistics": "物流",
+      "mining": "采矿",
+      "healthcare": "医疗保健",
+      "textile": "纺织",
+      "manufacturing": "制造      "machinery": "机械工程",
+      "construction": "建筑"
+    },
+    "ai_type": {
+      "title": "按AI类型筛选:",
+      "all": "所有类型",
+      "machine_learning": "机器学习",
+      "computer_vision": "计算机视觉",
+      "language_models": "语言模型"
+    }
+  },
+  "case_structure": {
+    "business_task": "业务任务:",
+    "solution": "解决方案:",
+    "effect": "效果:"
+  },
+  "footer": {
+    "copyright": "© 2025 工业人工智能。所有示例基于真实案例。",
+    "ai_types": "机器学习 • 计算机视觉 • 语言模型"
+  },
+  "cases": [
+    {
+      "company": {
+        "name_en": "Baowu Steel Group",
+        "name_cn": "宝武钢铁集团"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["machine_learning", "language_models"],
+      "business_task": "优化生产流程并创建中国钢铁行业首个人工智能计算中心",
+      "solution": "基于原中厚板生产厂建立人工智能计算中心，并将盘古预测模型连接到热轧生产线",
+      "effects": [
+        "预测准确率提高5%",
+        "年利润增加超过1000万元",
+        "人工智能实施的经济效益每年超过1亿元",
+        "2024年启动300个人工智能场景"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Ansteel Group",
+        "name_cn": "鞍钢集团"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["machine_learning"],
+      "business_task": "使用人工智能优化管理和包装流程",
+      "solution": "实施DeepSeek和Raccoon人工智能工具，为精益制造设计解决方案",
+      "effects": [
+        "数据分析时间从几天缩短到几秒",
+        "制定四项改进措施，包括优化包装流程和材料",
+        "到2025年3月，包装材料成本降低1707万元",
+        "标准化捆扎，更换钢保护板材料，更新纳米涂层防腐纸"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Shougang Group",
+        "name_cn": "首钢集团"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["machine_learning", "computer_vision"],
+      "business_task": "提高高炉生产线的自动化和智能化水平",
+      "solution": "开发用于智能高炉生产、球团和烧结的专有人工智能系统",
+      "effects": [
+        "减少生产过程中的人工干预",
+        "通过自动化提高工作效率",
+        "实施一键式操作以减轻工作负担",
+        "为高炉生产创建专有人工智能系统"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Hesteel Group",
+        "name_cn": "河钢集团"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["machine_learning", "computer_vision"],
+      "business_task": "从订单接收到产品交付的整个生产过程数字化",
+      "solution": "实施WeShyper Data智能运营数字平台，用于可视化关键生产过程数据",
+      "effects": [
+        "将超过52万台设备连接到平台",
+        "创建超过3000个工业应用和2700个工业模型",
+        "为9个子行业开发超过30个解决方案",
+        "服务超过5000家企业并注册超过3万名企业用户"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Taigang Group",
+        "name_cn": "太钢集团"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["machine_learning", "computer_vision"],
+      "business_task": "从传统钢铁生产向智能管理转变",
+      "solution": "基于MES系统开发和实施智能炼钢人工智能助手平台",
+      "effects": [
+        "运营效率提高超过30%",
+        "质量波动系数显著降低",
+        "熔融钢成分稳定性提高",
+        "使用数字手段创建质量和安全保护的双重防线"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Shagang Group",
+        "name_cn": "沙钢集团"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["machine_learning", "language_models"],
+      "business_task": "使用人工智能进行企业智能转型",
+      "solution": "在企业内部网络中本地部署DeepSeek模型并启动试验验证",
+      "effects": [
+        "为生产管理创建数字心脏",
+        "提高决策效率",
+        "优化生产流程",
+        "战略性应用人工智能技术进行数字化转型"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Nanjing Agricultural University",
+        "name_cn": "南京农业大学"
+      },
+      "industry": "agriculture",
+      "ai_types": ["computer_vision", "machine_learning"],
+      "business_task": "使用人工智能技术进行智能小麦种植",
+      "solution": "开发小麦监测机器人和小麦生长条件远程感应系统",
+      "effects": [
+        "准确评估环境条件和作物生长条件",
+        "实时产量计算",
+        "创建小麦产量分布的空间地图",
+        "改进下一个播种季节的规划"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Maoming Lychee Industry",
+        "name_cn": "茂名荔枝产业"
+      },
+      "industry": "agriculture",
+      "ai_types": ["machine_learning", "language_models"],
+      "business_task": "使用人工智能和物联网优化荔枝种植",
+      "solution": "在本地人工智能助手平台中实施DeepSeek模型，集成超过500万个数据点，并安装69套支持5G的物联网传感器",
+      "effects": [
+        "实时监测土壤湿度和空气温度",
+        "在不利天气造成损害之前预测和降低风险",
+        "为农民提供个性化管理计划",
+        "提高荔枝种植效率"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Chengdu Smart Greenhouse",
+        "name_cn": "成都智能温室"
+      },
+      "industry": "agriculture",
+      "ai_types": ["computer_vision", "machine_learning"],
+      "business_task": "使用巡逻机器人实现温室监测自动化",
+      "solution": "开发配备高清摄像头的机器人用于监测作物生长，并与DeepSeek大模型集成",
+      "effects": [
+        "害虫识别准确率提高到80%以上",
+        "实时将作物生长图像传输到云端",
+        "提高种植决策的准确性",
+        "提高农业生产效率"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Intellipig",
+        "name_cn": "智能猪"
+      },
+      "industry": "agriculture",
+      "ai_types": ["computer_vision", "machine_learning"],
+      "business_task": "使用人工智能进行个性化养猪",
+      "solution": "开发猪脸识别系统，用于识别个体动物并分析其状况",
+      "effects": [
+        "在不到一秒的时间内识别个体猪",
+        "在饲料槽中分配个性化饲料份量",
+        "分析猪的图像以检测疼痛、疾病或情绪困扰的迹象",
+        "提高养猪效率并改善动物健康"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Tencent Yuanbao",
+        "name_cn": "腾讯元宝"
+      },
+      "industry": "agriculture",
+      "ai_types": ["language_models", "computer_vision"],
+      "business_task": "在农村地区引入人工智能以支持农民",
+      "solution": "将DeepSeek-R1集成到腾讯元宝产品中，创建农业人工智能工具",
+      "effects": [
+        "解决与农业和畜牧业相关的实际问题",
+        "协助母猪产后护理",
+        "检测害虫和作物疾病",
+        "提供关于肥料和农药使用的建议"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Zhongshan Hospital",
+        "name_cn": "中山医院"
+      },
+      "industry": "healthcare",
+      "ai_types": ["machine_learning", "language_models"],
+      "business_task": "使用人工智能诊断和治疗心血管疾病",
+      "solution": "实施CardioMind人工智能系统用于心血管疾病的诊断和治疗",
+      "effects": [
+        "减轻136名心脏科医生的工作负担，每年服务82万门诊就诊",
+        "缩短诊断时间并提高准确性",
+        "根据心脏科主任的说法，该系统像领先专家一样思考",
+        "人工智能在中国医疗系统中日益重要的例子"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "JD Logistics",
+        "name_cn": "京东物流"
+      },
+      "industry": "logistics",
+      "ai_types": ["computer_vision", "machine_learning"],
+      "business_task": "仓库操作自动化和配送路线优化",
+      "solution": "实施计算机视觉系统用于包裹分拣自动化和机器学习算法用于优化配送路线",
+      "effects": [
+        "包裹分拣速度提高40%",
+        "配送时间减少30%",
+        "物流成本降低25%",
+        "配送准确率提高到99.8%"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Cainiao Network",
+        "name_cn": "菜鸟网络"
+      },
+      "industry": "logistics",
+      "ai_types": ["machine_learning", "language_models"],
+      "business_task": "需求预测和供应链优化",
+      "solution": "开发基于机器学习的需求预测系统，并实施语言模型用于客户服务自动化",
+      "effects": [
+        "需求预测准确率提高到95%",
+        "仓库库存减少20%",
+        "80%的客户请求自动化处理",
+        "订单处理时间减少50%"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "SF Express",
+        "name_cn": "顺丰速运"
+      },
+      "industry": "logistics",
+      "ai_types": ["computer_vision", "machine_learning"],
+      "business_task": "使用无人机和机器人实现配送自动化",
+      "solution": "开发计算机视觉系统用于无人机和配送机器人在城市环境中的导航",
+      "effects": [
+        "启动超过1000架无人机用于偏远地区配送",
+        "农村地区配送时间减少60%",
+        "物流运营的碳足迹减少30%",
+        "高峰时段配送效率提高45%"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "China Minmetals Corporation",
+        "name_cn": "中国五矿集团"
+      },
+      "industry": "mining",
+      "ai_types": ["computer_vision", "machine_learning"],
+      "business_task": "提高采矿作业的安全性和效率",
+      "solution": "实施计算机视觉系统用于安全监控和机器学习算法用于优化采矿过程",
+      "effects": [
+        "事故减少75%",
+        "采矿效率提高30%",
+        "能耗降低25%",
+        "优化设备使用，停机时间减少40%"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Shandong Gold Mining",
+        "name_cn": "山东黄金矿业"
+      },
+      "industry": "mining",
+      "ai_types": ["machine_learning", "computer_vision"],
+      "business_task": "矿床智能勘探和采矿过程优化",
+      "solution": "开发机器学习系统用于分析地质数据和预测金矿位置",
+      "effects": [
+        "地质勘探准确率提高40%",
+        "勘探成本降低35%",
+        "采矿量增加25%",
+        "优化矿石富集过程，黄金提取率提高15%"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "China Coal Energy",
+        "name_cn": "中国中煤能源"
+      },
+      "industry": "mining",
+      "ai_types": ["computer_vision", "machine_learning"],
+      "business_task": "煤矿自动化和提高采矿安全",
+      "solution": "实施计算机视觉系统用于安全监控和机器人用于煤炭开采自动化",
+      "effects": [
+        "危险区域人员减少80%",
+        "劳动生产率提高50%",
+        "通过精确监控减少甲烷排放",
+        "通过过程优化降低能耗30%"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Zijin Mining",
+        "name_cn": "紫金矿业"
+      },
+      "industry": "mining",
+      "ai_types": ["machine_learning", "language_models"],
+      "business_task": "矿石富集过程优化和环境监测",
+      "solution": "开发机器学习系统用于优化矿石富集过程和语言模型用于分析环境报告",
+      "effects": [
+        "金属提取率提高20%",
+        "化学试剂使用减少30%",
+        "环境影响降低40%",
+        "环境监测和报告自动化"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "POSCO",
+        "name_cn": "浦项钢铁"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["machine_learning", "computer_vision"],
+      "business_task": "降低能耗并优化钢铁生产中的技术参数",
+      "solution": "实施深度学习算法分析传感器数据，优化从冶炼到轧制各个阶段的参数，让AI自动调整操作条件",
+      "effects": [
+        "能耗降低15%",
+        "提高生产能效",
+        "降低生产成本",
+        "改善环境绩效"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Hyundai Steel",
+        "name_cn": "现代钢铁"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["computer_vision"],
+      "business_task": "实时检测产品表面缺陷",
+      "solution": "配备AI模块的摄像头分析轧制板材的裂纹和变形，对以前需要目视或手动检测的缺陷进行分类",
+      "effects": [
+        "显著降低次品率",
+        "加速质量控制",
+        "减少材料损失",
+        "提高产品可靠性"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Sungwon",
+        "name_cn": "成元"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["language_models"],
+      "business_task": "支持外国工人阅读技术文档和说明",
+      "solution": "LLM平台将技术术语翻译并解释为员工的母语，帮助正确执行复杂操作",
+      "effects": [
+        "提高工作准确性",
+        "增强生产力和质量",
+        "降低错误风险",
+        "改善多国团队沟通"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Quanzhou Huicheng Knitting Co., Ltd.",
+        "name_cn": "泉州汇成针织有限公司"
+      },
+      "industry": "textile",
+      "ai_types": ["machine_learning", "computer_vision"],
+      "business_task": "降低设备维护成本并提高产品质量",
+      "solution": "开发AI优化的维护系统和计算机视觉用于自动缺陷检测（如刺绣缺陷）",
+      "effects": [
+        "提高生产力",
+        "降低维修成本",
+        "改善织物质量",
+        "当地小型纺织企业数字化的典型例子"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Quanzhou Huashi Rubber & Plastic Technology Co., Ltd.",
+        "name_cn": "泉州华实橡塑科技有限公司"
+      },
+      "industry": "manufacturing",
+      "ai_types": ["machine_learning"],
+      "business_task": "提高汽车悬架弹簧生产的质量和稳定性",
+      "solution": "ML系统分析原材料、生产参数和测试反馈数据，优化质量控制和公差",
+      "effects": [
+        "改善产品质量",
+        "减少缺陷",
+        "加速生产",
+        "系统覆盖从原材料到出货的全周期"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Fujian Guangyang Egg Industry Co., Ltd.",
+        "name_cn": "福建光阳蛋业股份有限公司"
+      },
+      "industry": "agriculture",
+      "ai_types": ["machine_learning", "computer_vision", "language_models"],
+      "business_task": "在大型禽舍中自动检测病鸡或死鸡",
+      "solution": "机器人'牧鸡郎6'通过视觉和音频分析每只鸡的内部健康参数",
+      "effects": [
+        "问题检测准确率达99%",
+        "大幅减少人工工作和成本",
+        "机器人已在70多个农场使用并开始出口"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Guangzhou Kunpeng IoT Technology Co., Ltd.",
+        "name_cn": "广州鲲鹏物联科技有限公司"
+      },
+      "industry": "logistics",
+      "ai_types": ["computer_vision"],
+      "business_task": "仓库操作中的箱子计数错误",
+      "solution": "实施配备视觉AI的边缘设备用于精确计数、包装控制、错误预防",
+      "effects": [
+        "减少错误",
+        "降低人工成本",
+        "加速流程",
+        "本地AI+物流的典型案例"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "China Mobile Communications Group Guangdong Co., Ltd. Guangzhou Branch",
+        "name_cn": "中国移动通信集团广东有限公司 广州分公司"
+      },
+      "industry": "agriculture",
+      "ai_types": ["machine_learning", "language_models", "computer_vision"],
+      "business_task": "优化农业工作的所有阶段：从播种到收获",
+      "solution": "集成AI平台使用传感器、视觉和大模型进行监控、预警、最优决策",
+      "effects": [
+        "改善作物可持续性",
+        "精确资源管理",
+        "'AI+农业+'战略试点项目的一部分"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Ultralytics Platform Users",
+        "name_cn": "使用Ultralytics平台的制造商"
+      },
+      "industry": "textile",
+      "ai_types": ["machine_learning", "computer_vision"],
+      "business_task": "减少织物缺陷和生产损失",
+      "solution": "ML模型用于自动缺陷检测和预测性设备维修",
+      "effects": [
+        "改善产品质量",
+        "减少浪费和材料损失",
+        "平台潜力在各种工厂中得到实现"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "SoftWear Automation",
+        "name_cn": "SoftWear Automation"
+      },
+      "industry": "textile",
+      "ai_types": ["computer_vision"],
+      "business_task": "服装缝制中手工操作的自动化",
+      "solution": "配备计算机视觉的机器人自主缝制基本纺织产品",
+      "effects": [
+        "降低人工成本",
+        "加速服装组装",
+        "减少错误",
+        "特别适用于基本品种的大规模生产"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "HD Hyundai Robotics",
+        "name_cn": "HD现代机器人"
+      },
+      "industry": "machinery",
+      "ai_types": ["computer_vision", "machine_learning"],
+      "business_task": "提高汽车生产中装配的速度和质量",
+      "solution": "生产机器人（HS220等）用于焊接、装配和处理具有AI控制参数、错误检测的单元",
+      "effects": [
+        "提高生产力",
+        "降低人工成本并改善质量",
+        "销售52,000台机器人，年销售4,000台"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "SMS group GmbH",
+        "name_cn": "SMS集团"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["machine_learning"],
+      "business_task": "延长EAF出钢口使用寿命并减少停机时间，提高无缺陷浇铸率",
+      "solution": "在8,000次浇铸中以200ms频率收集约1000个信号，ML模型实时检测异常，评估堵塞风险",
+      "effects": [
+        "成功浇铸率从约80%提高到>94%",
+        "显著减少停机时间，优化操作模式",
+        "分析冷却板温度，改进序列信号分析"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Nanoprecise (Tata Steel, Vedanta etc.)",
+        "name_cn": "Nanoprecise (塔塔钢铁、韦丹塔等)"
+      },
+      "industry": "metallurgy",
+      "ai_types": ["machine_learning"],
+      "business_task": "避免事故和停机（电机、皮带、泵），防止计划外停机，减少生产线死时间",
+      "solution": "安装四传感器和六传感器物联网传感器（振动、温度），边缘ML实时确定振动异常",
+      "effects": [
+        "防止10小时的计划外停机",
+        "显著提高可靠性并减少停机时间"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "John Deere",
+        "name_cn": "约翰迪尔"
+      },
+      "industry": "agriculture",
+      "ai_types": ["computer_vision", "machine_learning"],
+      "business_task": "精准农业和作物监测优化",
+      "solution": "实施计算机视觉系统用于作物健康监测和机器学习算法用于产量预测和资源优化",
+      "effects": [
+        "作物产量提高15-20%",
+        "化肥和农药使用减少25%",
+        "改善资源效率和可持续性",
+        "提高种植和收获操作的精度"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "KONUX",
+        "name_cn": "KONUX"
+      },
+      "industry": "logistics",
+      "ai_types": ["machine_learning"],
+      "business_task": "铁路基础设施的预测性维护和铁路运营优化",
+      "solution": "物联网传感器和机器学习算法用于实时监控铁路道岔和轨道状况",
+      "effects": [
+        "铁路维护成本降低30%",
+        "运营可靠性提高40%",
+        "防止关键基础设施故障",
+        "优化维护调度和资源分配"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "FarmWise",
+        "name_cn": "FarmWise"
+      },
+      "industry": "agriculture",
+      "ai_types": ["computer_vision", "machine_learning"],
+      "business_task": "精准农业中的自主除草和作物管理",
+      "solution": "配备计算机视觉的自主机器人用于精确识别和清除杂草而不损害作物",
+      "effects": [
+        "除草剂使用减少80%",
+        "作物产量提高10-15%",
+        "降低除草操作的人工成本",
+        "改善农业的环境可持续性"
+      ]
+    },
+    {
+      "company": {
+        "name_en": "Evonik Industries",
+        "name_cn": "赢创工业集团"
+      },
+      "industry": "manufacturing",
+      "ai_types": ["machine_learning"],
+      "business_task": "化学生产过程优化和质量控制",
+      "solution": "机器学习算法用于过程优化、预测性维护和化学制造中的质量预测",
+      "effects": [
+        "生产效率提高20%",
+        "能耗降低15%",
+        "改善产品质量一致性",
+        "减少废物和环境影响"
+      ]
+    }
+  ]
+}
+
+
+,
+    {
+      "company": {
+        "name_en": "Dzungarian Basin Underground Water Pipeline System Infrastructure Project",
+        "name_cn": "准噶尔盆地地下输水管道系统基础设施项目"
+      },
+      "industry": "construction",
+      "ai_types": ["machine_learning"],
+      "business_task": "克服隧道内交通拥堵，加速隧道掘进机（TBM）24小时运行，减少停机时间，加快施工进度",
+      "solution": "AI系统控制卡车流量，调整其路线和间隔，确保材料不间断运输",
+      "effects": [
+        "显著减少隧道内交通拥堵",
+        "提高TBM推进速度和整体施工效率"
+      ]
+    }
+
+
+,
+    {
+      "company": {
+        "name_en": "South Korean Research Center / Government Contractor",
+        "name_cn": "韩国研究中心/政府承包商"
+      },
+      "industry": "construction",
+      "ai_types": ["generative_ai", "computer_vision"],
+      "business_task": "混凝土缺陷图像训练数据不足，真实数据收集成本高",
+      "solution": "生成式AI在24小时内创建了10,000张逼真的混凝土缺陷图像。这些数据用于训练模型，提高了无人机检测裂缝的准确性",
+      "effects": [
+        "获得了足够的训练数据",
+        "降低了真实图像收集成本，提高了检测准确性"
+      ]
+    }
+
+
+,
+    {
+      "company": {
+        "name_en": "Damsgård Tunnel, Norway (Managing Authority)",
+        "name_cn": "挪威达姆斯戈尔德隧道（管理机构）"
+      },
+      "industry": "construction",
+      "ai_types": ["computer_vision"],
+      "business_task": "检测隧道内事件（事故、拥堵、火灾）并提高交通安全",
+      "solution": "安装双目AI摄像头，能够识别事件并紧急向调度员发出信号",
+      "effects": [
+        "挪威首次将AI应用于隧道安全",
+        "改进了实时事件检测"
+      ]
+    }
+
+
+,
+    {
+      "company": {
+        "name_en": "WSP",
+        "name_cn": "WSP"
+      },
+      "industry": "construction",
+      "ai_types": ["machine_learning", "language_models", "3d_modeling"],
+      "business_task": "加速隧道工程图纸和文档的准备，减少错误和时间成本",
+      "solution": "AI系统直接根据设计要求生成3D模型、报告和文档",
+      "effects": [
+        "加速文档编制",
+        "减少设计时间和错误"
+      ]
+    }
+
+
+,
+    {
+      "company": {
+        "name_en": "CMiC and partner construction companies",
+        "name_cn": "CMiC和合作建筑公司"
+      },
+      "industry": "construction",
+      "ai_types": ["machine_learning", "robotics"],
+      "business_task": "减少建筑材料消耗，自动化任务——钻孔、喷漆、安装，实时监测结构载荷和状态",
+      "solution": "AI设计建模优化结构，机器人和传感器控制过程并确保安全，数字孪生系统和安全算法",
+      "effects": [
+        "显著减少材料损失",
+        "提高施工和安装工作的安全性和速度",
+        "以威尼斯堤道为例：AI在清理前就识别出34个构件的载荷偏差并实施了限制"
+      ]
+    }
+
+
+,
+    {
+      "company": {
+        "name_en": "Chongqing Midea Water Appliance Factory",
+        "name_cn": "重庆美的通用水机工厂"
+      },
+      "industry": "construction",
+      "ai_types": ["machine_learning"],
+      "business_task": "装配线规划自动化（定制生产），减少废品、材料损耗，降低库存和运营成本",
+      "solution": "AI代理分析传入订单、可用资源和重新配置参数。使用超级计算机（边缘或云）进行操作调度。集成图纸、参数和材料，实现平衡的SMART调度逻辑",
+      "effects": [
+        "减少材料损耗",
+        "减少库存",
+        "运营成本降低15%"
+      ]
+    }
+
+
+,
+    {
+      "company": {
+        "name_en": "Several factories in Huaihua, Hunan Province",
+        "name_cn": "湖南怀化多家工厂"
+      },
+      "industry": "construction",
+      "ai_types": ["big_data"],
+      "business_task": "完成生产过程的数字化和自动化，提高效率和产品质量",
+      "solution": "安装5G网络连接的IIoT传感器。自动化调度和分发系统。AI算法用于过程控制、能耗和质量监控",
+      "effects": [
+        "工厂被授予“省级先进智能工厂”称号",
+        "实时控制，减少缺陷和延误",
+        "生产力提高22-28%，缺陷减少高达50%"
+      ]
+    }
+
+
+,
+    {
+      "company": {
+        "name_en": "Huayanli Block Relocation Project in Shanghai",
+        "name_cn": "上海华严里街区搬迁项目"
+      },
+      "industry": "construction",
+      "ai_types": ["robotics"],
+      "business_task": "每天将重达7,500吨的历史建筑群移动约10米，同时保持文化遗产的完整性",
+      "solution": "约432个自主机器人平台，相互同步。每个平台以毫米级精度引导建筑的移动部分",
+      "effects": [
+        "搬迁面积4,030平方米、重7,382吨的建筑",
+        "速度约10米/天，机器人实现不间断作业"
+      ]
+    }
+
+
+,
+    {
+      "company": {
+        "name_en": "Seoul Robot & AI Museum (RAIM)",
+        "name_cn": "首尔机器人与人工智能博物馆（RAIM）"
+      },
+      "industry": "construction",
+      "ai_types": ["robotics"],
+      "business_task": "复杂形状的建筑结构，无设计浪费，执行精度高",
+      "solution": "参数化建模和激光数控加工。机器人焊接和曲面幕墙元件的组装",
+      "effects": [
+        "幕墙以最小误差组装，博物馆于2024年10月开放",
+        "展示了高水平的精密制造和错误减少"
+      ]
+    }
+
+
+,
+    {
+      "company": {
+        "name_en": "Techman Robot Inc.",
+        "name_cn": "达明机器人股份有限公司"
+      },
+      "industry": "construction",
+      "ai_types": ["computer_vision", "robotics"],
+      "business_task": "自动化模块/内饰的质量控制和验收，提高办公室和工业厂房建设的速度和减少错误",
+      "solution": "TM AI+集成到协作机器人中。组件的自动定位、视觉检测和拾取放置操作",
+      "effects": [
+        "广泛应用于墙板组装、装修、物流",
+        "减少安装错误，加快安装过程"
+      ]
+    }
+
+
+,
+    {
+      "company": {
+        "name_en": "China State Construction Engineering Corporation (CSCEC)",
+        "name_cn": "中国建筑工程总公司（CSCEC）"
+      },
+      "industry": "construction",
+      "ai_types": ["computer_vision", "robotics"],
+      "business_task": "自动化质量检查，控制隐藏工程系统（电线、钢筋），减少人为错误，提高安全性",
+      "solution": "带激光雷达和摄像头的“X-MEN”机器人检查墙壁，识别缺陷，收集3D坐标并建模BIM环境。四足巡逻机器人监测空气，记录振动并传输视频。其他机器人：电工机器人用于电缆安装，AGV用于材料运输，装修机器人",
+      "effects": [
+        "数百万平方米的建筑自主检查",
+        "在隐藏阶段之前检测毫米级缺陷",
+        "检查精度提高到约95%，减少人为错误风险"
+      ]
+    }
+
+
+,
+    {
+      "company": {
+        "name_en": "Yangqu Dam Hydropower Plant",
+        "name_cn": "阳曲水电站"
+      },
+      "industry": "construction",
+      "ai_types": ["robotics", "3d_modeling"],
+      "business_task": "自主建造高约180米的堤坝，取代偏远地区的人工劳动，最大限度地减少错误和风险",
+      "solution": "中央AI系统控制自动驾驶卡车、推土机、压路机，并分层形成“3D打印”结构。机器人监测层，其密度，并将状态传输到系统进行调整",
+      "effects": [
+        "大坝“无人”建造：汽车、机器和压路机都由AI控制。",
+        "预计高度180米，2024年完工",
+        "预计年发电量50亿千瓦时；消除了操作员错误和安全风险"
+      ]
+    }
+
+
+,
+    {
+      "company": {
+        "name_en": "Various pilot projects on digital twins of infrastructure (bridges, roads)",
+        "name_cn": "基础设施数字孪生（桥梁、道路）的各种试点项目"
+      },
+      "industry": "construction",
+      "ai_types": ["machine_learning"],
+      "business_task": "实时监测变形和载荷，及时发现裂缝、沉降和关键几何变化，提高安全性和延长基础设施寿命",
+      "solution": "安装分布式传感器（微应变计、温度、振动）。创建具有实时数据的结构数字模型。AI模型分析偏差并预测技术风险",
+      "effects": [
+        "四川省的实际试点项目显示，沉降检测精度达到±毫米，并自动报警",
+        "在上海和北京，3D扫描+BIM允许以8秒/信号周期跟踪桥梁和道路变形"
+      ]
+    }
+
+
+,
+    {
+      "company": {
+        "name_en": "China State Construction Engineering Corp (CSCEC)",
+        "name_cn": "中国建筑工程总公司（CSCEC）"
+      },
+      "industry": "construction",
+      "ai_types": ["computer_vision", "robotics"],
+      "business_task": "高精度执行工作（标记、安装、组装），减少人为错误和劳动力成本，提高质量控制和安全性",
+      "solution": "放线机器人：标记精度高达±1毫米。具有激光扫描、BIM、MR支持和机械手的多功能平台——能够遍历BIM模型并执行组装、焊接、移动。变形雷达机器人：MIMO雷达用于监测施工期间的建筑物形状",
+      "effects": [
+        "复杂立面（例如景德镇御窑博物馆）的精确标记，无错误",
+        "实时提高高层建筑（200米以上）的几何控制",
+        "减少缺陷，加快安装，提高安全性"
+      ]
+    }
+
