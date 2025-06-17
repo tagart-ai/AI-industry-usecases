@@ -10,7 +10,7 @@ async function loadTranslations() {
   try {
     console.log("Attempting to load translations...");
     const promises = AVAILABLE_LANGUAGES.map(lang => 
-      fetch(`/locales/${lang}.json`)
+      fetch(`/${lang}.json`)
         .then(response => {
           console.log(`Fetch response for ${lang}.json:`, response);
           if (!response.ok) {
