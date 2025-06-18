@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Localization Files</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Test Localization Files</h1>
+    <div id="output"></div>
+
+    <script>
+        async function testLocalization() {
+            const output = document.getElementById('output');
+            
+            try {
+                // Загружаем файлы локализации
+                const ruResponse = await fetch('/locales/ru.json');
+                const enResponse = await fetch('/locales/en.json');
+                const zhResponse = await fetch('/locales/zh.json');
+                
+                if (!ruResponse.ok) {
+                    output.innerHTML += '<p>Error loading ru.json: ' + ruResponse.status + '</p>';
+                } else {
+                    const ruData = await ruResponse.json();
+                    output.innerHTML += '<p>ru.json loaded successfully. Cases count: ' + ruData.cases.length + '</p>';
+                    output.innerHTML += '<pre>' + JSON.stringify(ruData.cases[0], null, 2) + '</pre>';
+                }
+                
+                if (!enResponse.ok) {
+                    output.innerHTML += '<p>Error loading en.json: ' + enResponse.status + '</p>';
+                } else {
+                    const enData = await enResponse.json();
+                    output.innerHTML += '<p>en.json loaded successfully. Cases count: ' + enData.cases.length + '</p>';
+                    output.innerHTML += '<pre>' + JSON.stringify(enData.cases[0], null, 2) + '</pre>';
+                }
+                
+                if (!zhResponse.ok) {
+                    output.innerHTML += '<p>Error loading zh.json: ' + zhResponse.status + '</p>';
+                } else {
+                    const zhData = await zhResponse.json();
+                    output.innerHTML += '<p>zh.json loaded successfully. Cases count: ' + zhData.cases.length + '</p>';
+                    output.innerHTML += '<pre>' + JSON.stringify(zhData.cases[0], null, 2) + '</pre>';
+                }
+            } catch (error) {
+                output.innerHTML += '<p>Error: ' + error.message + '</p>';
+            }
+        }
+        
+        // Запускаем тест при загрузке страницы
+        window.onload = testLocalization;
+    </script>
+</body>
+</html>
+
